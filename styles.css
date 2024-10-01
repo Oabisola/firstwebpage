@@ -1,7 +1,33 @@
-.box {
+body {
+    margin: 1rem;
+
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    /* Adds some space between the images */
+}
+
+.image-container img {
     width: 300px;
     height: 300px;
-    background-color: tomato;
-    box-shadow: 10px 10px lightgray;
-    border-radius: 0.5rem;
+    object-fit: cover;
+    text-align: left;
+    column-count: 3;
 }
+
+
+
+/* }
+.image-container img[:nth-of-type(3)] {
+    span
+}
+
+@media screen and (min-width: 1024px) {
+    .image-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
