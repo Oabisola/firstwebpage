@@ -5,3 +5,18 @@
     --color-headings: #2d2d2d;
     --color-body: #8f8f8f;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-headings);
+}
+
+h1 {
+    font-family: 'kreon', Arial, Helvetica, sans-serif;
+}
